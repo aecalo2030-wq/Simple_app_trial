@@ -1,5 +1,6 @@
-Math, distance between 2 points:
 import math
+
+#math
 
 # Step 1: Get user input
 x1 = float(input("Enter x1: "))
@@ -15,8 +16,8 @@ print(f"The distance between the two points is: {distance:.2f}")
 # End the program
 
 
-Password Checker:
 
+#Password_checker
 def password_checker():
     while True:
         password = input("Enter your password: ")
@@ -30,7 +31,8 @@ def password_checker():
             break
 password_checker()
 
-Loan Eligiility:
+
+#Loan
 credit_score = int(input("Enter credit score: "))
 income = float(input("Enter annual income: "))
 years_job = int(input("Enter years at current job: "))
@@ -45,5 +47,3 @@ if credit_score >= 700:
         print("Result: Loan Denied")
 else:
     print("Result: Loan Denied")
-
-
